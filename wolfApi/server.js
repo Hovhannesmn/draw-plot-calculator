@@ -5,7 +5,7 @@ app.listen(4000, function () {});
 
 //Classes to import for wolfram api
 const WolframAlphaAPI = require('wolfram-alpha-api');
-const waApi = WolframAlphaAPI('2EKERY-A72H28Q5TA');
+const waApi = WolframAlphaAPI('2EKERY-L3LHKX35R2');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
