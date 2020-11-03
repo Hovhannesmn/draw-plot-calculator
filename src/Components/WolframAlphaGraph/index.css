@@ -1,0 +1,7 @@
+.wolfram-api {
+  display: grid;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  justify-items: center;
+  align-items: center;
+}

@@ -1,0 +1,83 @@
+table {
+    margin: auto;
+    background-color: #9dd2ea;
+    width: 285px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+input {
+    outline: 0;
+    position: relative;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+input:hover {
+    border: 0 solid #000;
+    background-color: #8F5FD4;
+    box-shadow: 0 4px #644294;
+}
+
+input:active {
+    top: 4px;
+    box-shadow: none;
+}
+
+#answer {
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #F1FAEB;
+    float: left;
+}
+
+#answer:hover, #answer:active {
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.operator {
+    background-color: #f1ff92;
+    position: relative;
+}
+
+.operator:hover {
+    background-color: #E7F56B;
+    box-shadow: 0 4px #B7C259;
+}
+
+.operator:active {
+    top: 4px;
+    box-shadow: none;
+}
+
+.clear, .equal {
+    background-color: #ff9fa8;
+    margin-bottom: 15px;
+}
+
+.clear:hover, .equal:hover {
+    background-color: #F297A0;
+    box-shadow: 0 4px #CC7F86;
+}
+
+.clear:active, .equal:active {
+    top: 4px;
+    background-color: #F297A0;
+    box-shadow: none;
+}
+
+input[type="button"]:disabled {
+    background: #ccc;
+}

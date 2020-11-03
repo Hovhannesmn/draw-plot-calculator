@@ -1,0 +1,33 @@
+.plot-line {
+  stroke: red;
+  stroke-width: 1;
+  fill: none;
+}
+
+.plot-axis {
+  stroke: #2196f3;
+}
+
+.main-line {
+  stroke-width: 2;
+}
+
+.axis {
+  stroke: #4b57ff
+}
+
+.figure {
+  width: 31em;
+  height: 100%;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+@media only screen and (max-width:767px) {
+  .figure {
+      width:100%;
+  }
+}
